@@ -1,0 +1,398 @@
+.HOME {
+    color: $green !important;
+    font-size: 1.5rem;
+    font-family: $pattayaF !important;
+    margin-left: 10px;
+    &:hover {
+        transform: rotate(345deg);
+    }
+}
+
+.ABOUT {
+    color: $purple !important;
+    font-size: 1.5rem;
+    font-family: $pattayaF !important;
+    margin-left: 10px;
+    &:hover {
+        transform: rotate(15deg);
+    }
+}
+
+.MEDIA {
+    color: $yellow !important;
+    font-size: 1.5rem;
+    font-family: $pattayaF;
+    margin-left: 10px;
+    &:hover {
+        transform: rotate(345deg);
+    }
+}
+
+.FAQ {
+    color: $purple !important;
+    font-size: 1.5rem;
+    font-family: $pattayaF;
+    margin-left: 10px;
+    &:hover {
+        transform: rotate(15deg);
+    }
+}
+
+.CONTACT {
+    color: $green !important;
+    font-size: 1.5rem;
+    font-family: $pattayaF;
+    margin-left: 10px;
+    &:hover {
+        transform: rotate(345deg);
+    }
+    .TRIVIA {
+        color: $yellow !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+}
+
+img[src="/pics/logo.png"] {
+    width: 100px;
+    height: 100px;
+    &:hover {
+        transform: scale(1.1);
+        transform: rotate(340deg);
+    }
+}
+
+
+/* small- mobile */
+
+@media(max-width:576px) {
+    .HOME {
+        color: $green !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF !important;
+        margin-left: 10px;
+    }
+    .ABOUT {
+        color: $purple !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF !important;
+        margin-left: 10px;
+    }
+    .MEDIA {
+        color: $yellow !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+    }
+    .FAQ {
+        color: $purple !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+    }
+    .CONTACT {
+        color: $green !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+    }
+    .TRIVIA {
+        color: $yellow !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    img[src="/pics/logo.png"] {
+        width: 100px;
+        height: 100px;
+        &:hover {
+            transform: scale(1.1);
+            transform: rotate(340deg);
+        }
+    }
+}
+
+
+/* medium- tablet */
+
+@media(max-width:768px) {
+    .HOME {
+        color: $green !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF !important;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .ABOUT {
+        color: $purple !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF !important;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+    .MEDIA {
+        color: $yellow !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .FAQ {
+        color: $purple !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+    .CONTACT {
+        color: $green !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .TRIVIA {
+        color: $yellow !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    img[src="/pics/logo.png"] {
+        width: 100px;
+        height: 100px;
+        &:hover {
+            transform: scale(1.1);
+            transform: rotate(340deg);
+        }
+    }
+}
+
+
+/* large- tablet+laptop under 13 inch */
+
+@media(max-width:992px) {
+    .HOME {
+        color: $green !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF !important;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .ABOUT {
+        color: $purple !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF !important;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+    .MEDIA {
+        color: $yellow !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .FAQ {
+        color: $purple !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+    .CONTACT {
+        color: $green !important;
+        font-size: 1.5rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .TRIVIA {
+        color: $yellow !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    img[src="/pics/logo.png"] {
+        width: 100px;
+        height: 100px;
+        &:hover {
+            transform: scale(1.1);
+            transform: rotate(340deg);
+        }
+    }
+}
+
+
+/* xl- over 13inch */
+
+@media(max-width:1200px) {
+    .HOME {
+        color: $green !important;
+        font-size: 1.8rem !important;
+        font-family: $pattayaF !important;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .ABOUT {
+        color: $purple !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF !important;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+    .MEDIA {
+        color: $yellow !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .FAQ {
+        color: $purple !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+    .CONTACT {
+        color: $green !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .TRIVIA {
+        color: $yellow !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    img[src="/pics/logo.png"] {
+        width: 100px;
+        height: 100px;
+        &:hover {
+            transform: scale(1.1);
+            transform: rotate(340deg);
+        }
+    }
+}
+
+
+/* xxl */
+
+@media(max-width:1400px) {
+    .HOME {
+        color: $green !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF !important;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .ABOUT {
+        color: $purple !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF !important;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+    .MEDIA {
+        color: $yellow !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .FAQ {
+        color: $purple !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+    .CONTACT {
+        color: $green !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    .TRIVIA {
+        color: $yellow !important;
+        font-size: 1.8rem;
+        font-family: $pattayaF;
+        margin-left: 10px;
+        &:hover {
+            transform: rotate(345deg);
+        }
+    }
+    img[src="/pics/logo.png"] {
+        width: 100px;
+        height: 100px;
+        &:hover {
+            transform: scale(1.1);
+            transform: rotate(340deg);
+        }
+    }
+}
+
+// img[src="/pics/marsh.jpg"] {}
+// img[src="/pics/logo.png"]:hover {
+//     transform: scale(1.1);
+//     transform: rotate(340deg);
+// }

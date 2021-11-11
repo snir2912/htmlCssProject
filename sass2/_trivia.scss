@@ -1,0 +1,155 @@
+/* small- mobile */
+
+@media(max-width:576px) {
+    .triviaCard {
+        width: 90vw;
+        padding: 10px;
+        background-image: linear-gradient(beige, rgb(212, 212, 181), beige);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .h1trivia {
+        font-family: $hennyF;
+        color: $purple;
+    }
+    .question {
+        font-weight: 600;
+        font-family: $robotoF;
+        font-size: 1.7rem;
+        color: $green;
+    }
+    .answers {
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        color: $black;
+    }
+    .answers label {
+        display: block;
+    }
+    #submit {
+        margin-top: 14px;
+        background-color: $green !important;
+        color: $purple !important;
+        border-radius: 3px;
+        padding: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        &:hover {
+            background-color: $purple !important;
+            color: $green !important;
+        }
+    }
+}
+
+
+/* medium- tablet */
+
+@media(max-width: 768px) {}
+
+
+/* large- tablet+laptop under 13 inch */
+
+@media(max-width: 992px) {}
+
+
+/* xl- over 13inch */
+
+@media(min-width: 1200px) {
+    .triviaCard {
+        width: 600px;
+        margin-left: 50vw;
+        transform: translateX(-300px);
+        padding: 10px;
+        background-image: linear-gradient(beige, rgb(212, 212, 181), beige);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .trivia {
+        padding-left: 10px;
+    }
+    .h1trivia {
+        font-size: 2.5rem;
+        font-family: $hennyF;
+        color: $purple;
+    }
+    .question {
+        font-weight: 600;
+        font-family: $robotoF;
+        font-size: 1.7rem;
+        color: $green;
+    }
+    .answers {
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        color: $black;
+    }
+    .answers label {
+        display: block;
+    }
+    #submit {
+        margin-top: 14px;
+        background-color: $green !important;
+        color: $purple !important;
+        border-radius: 3px;
+        padding: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        &:hover {
+            background-color: $purple !important;
+            color: $green !important;
+        }
+    }
+}
+
+
+/* xxl */
+
+@media(min-width: 1400px) {
+    .triviaCard {
+        width: 600px;
+        margin-left: 50vw;
+        transform: translateX(-300px);
+        padding: 10px;
+        background-image: linear-gradient(beige, rgb(212, 212, 181), beige);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .trivia {
+        padding-left: 10px;
+    }
+    .h1trivia {
+        display: block;
+        font-size: 2.5rem;
+        font-family: $hennyF;
+        color: $purple;
+    }
+    .question {
+        font-weight: 600;
+        font-family: $robotoF;
+        font-size: 1.7rem;
+        color: $green;
+    }
+    .answers {
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+        color: $black;
+    }
+    .answers label {
+        display: block;
+    }
+    #submit {
+        margin-top: 14px;
+        background-color: $green !important;
+        color: $purple !important;
+        border-radius: 3px;
+        padding: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        &:hover {
+            background-color: $purple !important;
+            color: $green !important;
+        }
+    }
+}

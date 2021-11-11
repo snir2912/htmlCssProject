@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige !important;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+    overflow-x: hidden
+}
+
+@import 'setings';
+@import 'navBar';
+@import 'contact';
+@import 'about';
+@import 'media';
+@import 'FAQ';
+@import 'trivia';
+@import 'slider';
+@import 'majorCity';
+@import 'majorMore';
+@import 'bgParagraph';
+@import 'countdown';
+@import 'cards';
+@import 'video';
+@import 'weather';
+@import 'footer';

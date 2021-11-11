@@ -1,0 +1,38 @@
+.media {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: $purple;
+    font-family: $pattayaF;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 30px;
+}
+
+img[src^="/pics/gallery/"] {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media(max-width:576px) {
+    img[src^="/pics/gallery/"] {
+        width: 330px;
+        height: 330px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 10px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    img[src^="/pics/gallery/"]:hover {
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/sass2/main.css">
+    <link rel="shortcut icon" href="/pics/logo.png">
+</head>
+
+<body>
+    <header>
+        <!-- navBar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index2.html"><img src="/pics/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-sm-3">
+                        <li class="nav-item">
+                            <a class="nav-link active HOME" aria-current="page" href="index2.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ABOUT" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link MEDIA" href="media.html">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link FAQ" href="FAQ.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link CONTACT" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link TRIVIA" href="trivia.html">Trivia</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="fromDiv container m-2">
+        <form action="https://formsubmit.co/snir2912@gmail.com" method="POST">
+            <img src="/pics/logomardicontact.png" alt="logo">
+            <h2>Thank your for visit us!</h2>
+            <div class="form-group">
+                <label for="contact-Fname">First Name:</label>
+                <input type="text" class="form-control" id="contact-Fname" name="Fname" placeholder="Enter your First name.." onkeyup='validateFName()'>
+                <span class='error-message' id='name-error'></span>
+            </div>
+
+            <div class="form-group">
+                <label for="contact-Lname">Last Name:</label>
+                <input type="text" class="form-control" id="contact-Lname" name="Lname" placeholder="Enter your Last name.." onkeyup='validateLName()'>
+                <span class='error-message' id='Lname-error'></span>
+            </div>
+
+            <div class="form-group">
+                <label for="contact-email">Email address</label>
+                <input type="email" class="form-control" id="contact-email" name="email" placeholder="Enter Email" onkeyup='validateEmail()'>
+                <span class='error-message' id='email-error'></span>
+            </div>
+
+            <div class="form-group">
+                <label for='contactMessage'>Your Message</label>
+                <textarea class="form-control" rows="5" id='contact-message' name='message' placeholder="Enter a brief message" onkeyup='validateMessage()'></textarea>
+                <span class='error-message' id='message-error'></span>
+            </div>
+
+            <div class="form-group ">
+                <button onclick='return validateForm()' class=" btn btn-warning contactBtn shadow-none">Submit</button>
+                <span class='error-message' id='submit-error'></span>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+    <footer>
+        This Site Created By: Snir Inbar©
+    </footer>
+    <script src="/JavaScript/contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

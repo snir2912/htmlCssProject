@@ -1,0 +1,158 @@
+/* small- mobile */
+
+@media(max-width:576px) {
+    form {
+        width: 90vw;
+        padding: 10px;
+        background-image: linear-gradient(beige, rgb(212, 212, 181), beige);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .formDiv {
+        width: 100vw;
+        box-sizing: border-box;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .form-control {
+        background-color: rgb(238, 237, 238);
+    }
+    img[src^="/pics/logo"] {
+        display: block;
+        margin: auto;
+    }
+    h2 {
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: $purple;
+        font-family: $hennyF;
+        text-decoration: underline;
+    }
+    .form-group {
+        width: 380px;
+        font-family: $pattayaF;
+        color: $green;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .contactBtn {
+        margin-top: 14px;
+        background-color: $green !important;
+        color: $purple !important;
+        border: none !important;
+        &:hover {
+            background-color: $purple;
+            color: $green;
+        }
+    }
+    footer {
+        margin-bottom: 0px;
+    }
+}
+
+
+/* medium- tablet */
+
+@media(max-width: 768px) {}
+
+
+/* large- tablet+laptop under 13 inch */
+
+@media(max-width: 992px) {}
+
+
+/* xl- over 13inch */
+
+@media(min-width: 1200px) {
+    form {
+        width: 600px;
+        margin-left: 50vw;
+        transform: translateX(-300px);
+        padding: 10px;
+        background-image: linear-gradient(beige, rgb(212, 212, 181), beige);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .formDiv {
+        width: 500px;
+        box-sizing: border-box;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    img[src^="/pics/logo"] {
+        display: block;
+        margin: auto;
+    }
+    h2 {
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+        color: $purple;
+        font-family: $hennyF;
+        text-decoration: underline;
+    }
+    .form-group {
+        width: 500px;
+        font-family: $pattayaF;
+        color: $green;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .contactBtn {
+        margin-top: 14px;
+        background-color: $green !important;
+        color: $purple !important;
+        &:hover {
+            background-color: $purple !important;
+            color: $green !important;
+        }
+    }
+}
+
+
+/* xxl */
+
+@media(min-width: 1400px) {
+    .formDiv {
+        width: 500px;
+        box-sizing: border-box;
+        background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    img[src^="/pics/logo"] {
+        display: block;
+        margin: auto;
+    }
+    h2 {
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+        color: $purple;
+        font-family: $hennyF;
+        text-decoration: underline;
+    }
+    .form-group {
+        width: 500px;
+        font-family: $pattayaF;
+        color: $green;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .contactBtn {
+        margin-top: 14px;
+        background-color: $green !important;
+        color: $purple !important;
+        &:hover {
+            background-color: $purple !important;
+            color: $green !important;
+        }
+    }
+}

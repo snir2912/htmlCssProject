@@ -1,0 +1,225 @@
+/* small- mobile */
+
+@media(max-width:576px) {
+    .divPic {
+        margin-left: -30PX;
+    }
+    .divText {
+        margin-top: 0px;
+    }
+    .PIC {
+        height: 128px;
+        width: 30vw;
+        margin-bottom: 8px;
+        padding-left: 35px;
+        float: left;
+        padding-right: 8px;
+    }
+    .title {
+        font-size: 1.5rem;
+        font-family: $hennyF;
+        color: $yellow;
+        margin-left: 1px;
+        margin-top: -4px;
+    }
+    .Ppic {
+        text-align: justify;
+        font-family: $pattayaF;
+        padding: 4px;
+        font-size: 1rem;
+        color: rgb(85, 85, 85);
+    }
+    .BTN {
+        margin-top: -25px;
+        margin-left: -104px;
+        width: 20vw;
+        height: 35px;
+        font-size: 0.7rem;
+        background-color: $purple;
+        color: $yellow;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 1px solid $green;
+        &:hover {
+            background-color: $yellow !important;
+            color: $purple !important;
+        }
+    }
+    .mardiDiv {
+        width: 90vw;
+    }
+    .mardi {
+        color: $black;
+        font-family: $robotoF;
+        font-size: 1rem;
+        text-align: justify;
+        padding: 4px;
+    }
+    .mardiDateP {
+        color: $green;
+        font-family: $hennyF !important;
+        font-size: 1.4rem;
+        text-align: justify !important;
+    }
+    .hr {
+        width: 70vw;
+        color: $purple;
+        margin: auto;
+    }
+}
+
+// .BTN:hover {
+//     background-color: $yellow !important;
+//     color: $purple !important;
+// }
+
+/* medium- tablet */
+
+@media(max-width:768px) {}
+
+
+/* large- tablet+laptop under 13 inch */
+
+@media(max-width:992px) {
+    .hr {
+        display: none;
+    }
+}
+
+
+/* xl- over 13inch */
+
+@media(min-width:1200px) {
+    .divPic {
+        margin-left: 0PX;
+    }
+    .PIC {
+        height: 212px;
+        width: 175px;
+        margin-bottom: 8px;
+        padding-left: 35px;
+        margin-left: 30px;
+        float: left;
+        padding-right: 8px;
+    }
+    .title {
+        display: block;
+        margin-left: -220px;
+        font-size: 1.7rem;
+        font-family: $hennyF;
+        color: $yellow;
+    }
+    .Ppic {
+        display: block;
+        width: 280px;
+        margin-left: -20px;
+        text-align: justify;
+        font-family: $pattayaF;
+        padding: 4px;
+        font-size: 1.2rem;
+        color: rgb(85, 85, 85);
+    }
+    .BTN {
+        margin-top: -12px;
+        margin-left: -20px;
+        width: 100px;
+        height: 35px;
+        font-size: 0.7rem;
+        background-color: $purple;
+        color: $yellow;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 1px solid $green;
+        &:hover {
+            background-color: $yellow !important;
+            color: $purple !important;
+        }
+    }
+    .mardiDiv {
+        width: 90vw;
+    }
+    .mardi {
+        color: $black;
+        font-family: $robotoF;
+        font-size: 1rem;
+        text-align: justify;
+        padding: 4px;
+    }
+    .mardiDateP {
+        color: $green;
+        font-family: $hennyF !important;
+        font-size: 1.4rem;
+        text-align: justify !important;
+    }
+    .hr {
+        width: 40vw;
+        color: $purple;
+        margin: auto;
+    }
+}
+
+
+/* xxl */
+
+@media(min-width:1400px) {
+    .divPic {
+        margin-left: -30PX;
+    }
+    .PIC {
+        height: 200px;
+        width: 30vw;
+        margin-bottom: 8px;
+        padding-left: 35px;
+        float: left;
+        padding-right: 8px;
+    }
+    .title {
+        font-size: 1.5rem;
+        font-family: $hennyF;
+        color: $yellow;
+    }
+    .Ppic {
+        text-align: justify;
+        font-family: $pattayaF;
+        padding: 4px;
+        font-size: 1rem;
+        color: rgb(85, 85, 85);
+    }
+    .BTN {
+        margin-top: -0px;
+        margin-left: -103px;
+        width: 20vw;
+        height: 35px;
+        font-size: 0.7rem;
+        background-color: $purple;
+        color: $yellow;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 1px solid $green;
+        &:hover {
+            background-color: $yellow !important;
+            color: $purple !important;
+        }
+    }
+    .mardiDiv {
+        width: 90vw;
+    }
+    .mardi {
+        color: $black;
+        font-family: $robotoF;
+        font-size: 1rem;
+        text-align: justify;
+        padding: 4px;
+    }
+    .mardiDateP {
+        color: $green;
+        font-family: $hennyF !important;
+        font-size: 1.4rem;
+        text-align: justify !important;
+    }
+    .hr {
+        width: 70vw;
+        color: $purple;
+        margin: auto;
+    }
+}

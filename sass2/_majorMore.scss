@@ -1,0 +1,90 @@
+/* small- mobile */
+
+@media(max-width:576px) {
+    .major {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 50px;
+        padding: 40px;
+        // width: 700px;
+        margin: 0 auto;
+    }
+    .pm {
+        color: rgb(78, 78, 78);
+        font-family: $pattayaF;
+        font-weight: 200 !important;
+        display: block;
+        // width: 600px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        line-height: 1.5;
+        font-weight: 100;
+    }
+    span {
+        font-weight: 900;
+    }
+    .majorPicReadMore {
+        // width: 90px;
+        height: 120px;
+        float: right;
+        border-radius: 8px;
+        display: block;
+        margin-top: -25px;
+        margin-left: -100px;
+    }
+}
+
+
+/* medium- tablet */
+
+@media(max-width:768px) {}
+
+
+/* large- tablet+laptop under 13 inch */
+
+@media(max-width:992px) {}
+
+
+/* xl- over 13inch */
+
+@media(min-width:1200px) {
+    .major {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 50px;
+        padding: 40px;
+        width: 700px;
+        margin: 0 auto;
+    }
+    .pm {
+        color: rgb(78, 78, 78);
+        font-family: $pattayaF;
+        font-weight: 200 !important;
+        display: block;
+        width: 600px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        line-height: 1.5;
+        font-weight: 100;
+        font-size: 1.1rem;
+    }
+    span {
+        font-weight: 900;
+    }
+    .majorPicReadMore {
+        width: 90px;
+        height: 130px;
+        float: right;
+        border-radius: 8px;
+        display: block;
+        margin-top: -30px;
+        margin-left: -100px;
+    }
+}
+
+
+/* xxl */
+
+@media(max-width:1400px) {}
+
+// img[src="/pics/marsh.jpg"] {}

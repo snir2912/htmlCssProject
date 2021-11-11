@@ -1,0 +1,74 @@
+@media(max-width:576px) {
+    .Adiv {
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        // margin: 0 auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 12px;
+    }
+    button {
+        font-family: $pattayaF;
+        color: $green !important;
+        font-size: 1.5rem !important;
+        background-color: rgba(255, 255, 255, 0) !important;
+        border: none;
+    }
+    .pf {
+        text-align: justify;
+        font-size: 1.1rem;
+        color: $purple;
+    }
+}
+
+@media(min-width:1200px) {
+    .allSite {
+        width: 60vw;
+    }
+    h2 {
+        display: block;
+        margin: 0 auto;
+    }
+    .Adiv {
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 12px;
+        .pf {
+            text-align: justify;
+            font-size: 1.1rem;
+            color: $purple;
+        }
+    }
+    button {
+        font-family: $pattayaF;
+        color: $green !important;
+        font-size: 1.5rem !important;
+        background-color: rgba(255, 255, 255, 0) !important;
+        border: none;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:1400px) {
+    .Adiv {
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 12px;
+    }
+    button {
+        font-family: $pattayaF;
+        color: $green !important;
+        font-size: 1.5rem !important;
+        background-color: rgba(255, 255, 255, 0) !important;
+        border: none;
+    }
+    .pf {
+        text-align: justify;
+        font-size: 1.1rem;
+        color: $purple;
+    }
+}

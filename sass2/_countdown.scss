@@ -1,0 +1,98 @@
+/* small- mobile */
+
+@media(max-width:576px) {
+    .countdownDiv {
+        width: 100vw;
+        margin-left: 24px;
+    }
+    #clockdiv {
+        font-family: $pattayaF;
+        color: $yellow;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+    }
+    #clockdiv>div {
+        padding: 10px;
+        border-radius: 3px;
+        background: $green;
+        display: inline-block;
+    }
+    #clockdiv div>span {
+        padding: 15px;
+        border-radius: 3px;
+        background: $purple;
+        display: inline-block;
+    }
+    .smalltext {
+        padding-top: 5px;
+        font-size: 1rem;
+    }
+    h3 {
+        text-align: center;
+        display: block;
+        margin-left: -65px;
+        color: $yellow;
+        font-family: $hennyF;
+        font-size: 1.6rem;
+        margin-top: 40px;
+    }
+}
+
+
+/* medium- tablet */
+
+@media(max-width: 768px) {}
+
+
+/* large- tablet+laptop under 13 inch */
+
+@media(max-width: 992px) {}
+
+
+/* xl- over 13inch */
+
+@media(min-width: 1200px) {
+    .countdownDiv {
+        margin-left: 70px;
+        margin-top: -220px;
+    }
+    #clockdiv {
+        font-family: $pattayaF;
+        color: $purple;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+    }
+    #clockdiv>div {
+        padding: 10px;
+        border-radius: 3px;
+        background: $green;
+        display: inline-block;
+    }
+    #clockdiv div>span {
+        padding: 15px;
+        border-radius: 3px;
+        background: $yellow;
+        display: inline-block;
+    }
+    .smalltext {
+        padding-top: 5px;
+        font-size: 1rem;
+    }
+    .conth3 {
+        text-align: center;
+        display: block;
+        margin-left: 160px;
+        color: $purple;
+        font-family: $hennyF;
+        font-size: 1.8rem;
+    }
+}
+
+
+/* xxl */
+
+@media(min-width: 1400px) {}
